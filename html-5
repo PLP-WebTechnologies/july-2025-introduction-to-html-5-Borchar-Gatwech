@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple HTML5 page structured with semantic elements for accessibility and SEO.">
+  <title>My Semantic HTML5 Page</title>
+</head>
+<body>
+  
+  <!-- Page Header -->
+  <header>
+    <h1>Welcome to My Website</h1>
+    <p>Your go-to place for learning semantic HTML5 structures.</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#articles">Articles</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="home">
+    
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>This page demonstrates the use of HTML5 semantic elements to structure a document in a way that is accessible, SEO-friendly, and easy to read.</p>
+    </section>
+
+    <section id="articles">
+      <h2>Latest Articles</h2>
+      
+      <article>
+        <h3>Understanding Semantic HTML</h3>
+        <p>Semantic HTML gives meaning to web content, improving accessibility and helping search engines better interpret your content.</p>
+      </article>
+      
+      <article>
+        <h3>Why Accessibility Matters</h3>
+        <p>Accessibility ensures that all users, including those with disabilities, can navigate and interact with your content effectively.</p>
+      </article>
+    </section>
+    
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+    <p><a href="#contact">Contact us</a> | <a href="#about">Learn more</a></p>
+  </footer>
+
+</body>
+</html>
+
+
